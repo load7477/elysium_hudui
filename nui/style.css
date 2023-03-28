@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+@keyframes assetsanimation {
+    0% {
+      opacity: 0.1;
+    }
+    100% {
+      opacity: 1.0;
+    }
+}
+
+@keyframes waring {
+    0% {
+        background-color: rgba(168, 159, 159, 0.1);
+    }
+
+    10% {
+        background-color: rgba(168, 159, 159, 0.5);
+    }
+
+    20% {
+        background-color: rgba(168, 159, 159, 0.1);
+    }
+
+    30% {
+        background-color: rgba(168, 159, 159, 0.5);
+    }
+
+    40% {
+        background-color: rgba(168, 159, 159, 0.1);
+    }
+
+    50% {
+        background-color: rgba(168, 159, 159, 0.5);
+    }
+
+    60% {
+        background-color: rgba(168, 159, 159, 0.1);
+    }
+
+    70% {
+        background-color: rgba(168, 159, 159, 0.5);
+    }
+
+    80% {
+        background-color: rgba(168, 159, 159, 0.1);
+    }
+
+    90% {
+        background-color: rgba(168, 159, 159, 0.5);
+    }
+
+    100% {
+        background-color: rgba(168, 159, 159, 0.1);
+    }
+}
+
+body {
+    /* background-image: url('https://itcm.co.kr/files/attach/images/813/399/215/93e30d4fde2a0e7ad086277d7d0b60b4.jpg'); */
+}
+
+
+.notify {
+    color: white;
+    width: 200px;
+    height: 50px;
+    background-color: rgba(168, 159, 159, 0.384);
+    animation: 4s ease-out 0s 1 waring;
+    margin-top: 800px;
+    margin-left: 29px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.ic {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.notify > .content {
+    margin-top:-15px;
+    margin-left: 20px;
+    font-size: 10px;
+}
+
+#Assets {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+#Assets > #banks > .Cash, .Bank, .Credit {
+    animation: 4s ease-out 0s 1 assetsanimation;
+    display: flex;
+    width: 230px;
+    height: 37px;
+    margin-top: 3px;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.76);
+}
+
+.Icon {
+    color: #efefef;
+    width: 30px;
+    height: 25px;
+    margin-top: 6px;
+    margin-left: 5px;
+    text-align: center;
+    border-radius: 5px;
+    background: rgb(141, 141, 141);
+}
+
+.Amount {
+    display: flex;
+    color: #efefef;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: 15px;
+    /* float: left; */
+}
+
+.Amount > span {
+    font-size: 13.5px;
+}
+
+.info {
+    animation: 2s ease-out 0s 1 assetsanimation;
+    position: absolute;
+    right: 0px;
+    display: flex;
+    font-size: 13px;
+    width: 100px;
+    height: 23px;
+    margin-top: 3px;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.76);
+}
+
+.info > span {
+    margin-top: 1px;
+    display: flex;
+    color: #efefef;
+    margin-left: 5px;
+}
+
+.name {
+    animation: 2s ease-out 0s 1 assetsanimation;
+    position: absolute;
+    right: 130px;
+    display: flex;
+    font-size: 13px;
+    width: 100px;
+    height: 23px;
+    margin-top: 3px;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.76);
+}
+
+.name > span {
+    margin-top: 1px;
+    display: flex;
+    color: #efefef;
+    margin-left: 5px;
+}
+
+.Street {
+    width: 40px;
+    height: 17px;
+    margin-left: 3px;
+    margin-top: 1.8px;
+    text-align: center;
+    border-radius: 3px;
+    background: rgb(141, 141, 141);
+}
+
+.Street > span {
+    margin-top: -1.4px;
+}
+
+#bar {
+    background-color: black;
+    height:24px; 
+    width: 100%;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+    left: 0pt;
+    opacity: 0.5;
+}   
+
